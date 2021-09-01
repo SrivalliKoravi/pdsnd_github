@@ -159,7 +159,6 @@ def user_stats(df,city):
         print("Earliest year of birth: ",eb, "\n")
         print("Recent year of birth: ",mrb, "\n")
         print("Common year of birth: ",mcb, "\n")
-   # print("warning1")	
 
 
     print("\nThis took %s seconds." %round((time.time() - start_time)))
@@ -169,7 +168,6 @@ def user_stats(df,city):
         raw=input("would you like to see raw input? Enter yes or no \n")
         if raw.lower()== 'yes':
             print(df[x:x+5])
-   # print("warning msg2")
             x=x+5
         else:
             break
